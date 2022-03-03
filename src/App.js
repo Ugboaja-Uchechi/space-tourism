@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './component/Navbar';
 import DesktopHome from './component/desktop';
 import DesktopDestination from './component/desktop/destination';
+import DesktopCrew from './component/desktop/crewcommander';
 
 function App() {
   return(
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<DesktopHome />} />
         <Route exact path='/destination' element={<DesktopDestination />} />
+        <Route exact path='/crew' element={<DesktopCrew />} />
       </Routes>
     </>
   )
