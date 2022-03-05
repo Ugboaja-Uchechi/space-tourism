@@ -14,7 +14,6 @@ body {
   padding: 0;
   color: var(--colorWhite);
   height: 100vh;
-  /* overflow-y: hidden; */
 }
 
 /* DeskTop Header Navigation */
@@ -55,7 +54,6 @@ nav {
 /* Desktop Home Body */
 
 .background{
-  /* height: 100vh; */
   background-image: url(/src/images/home/background-home-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -66,7 +64,6 @@ nav {
   justify-content: space-around;
   padding-top: 15rem;
   padding-bottom: 1rem;
-  /* width: 28.125rem; */
   height: 23.875rem;
 }
 
