@@ -1,28 +1,35 @@
+@import url('https://fonts.googleapis.com/css2 family=Barlow+Condensed&display=swap');
+
 :root{
-  --textColor: #fff
+  --colorWhite: #fff;
+  --navyBlue: #0b0d17;
+  --lightPurple: #d0d6f9;
 }
 
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: var(--textColor);
+  color: var(--colorWhite);
 }
 
-.background{
-  height: 100vh;
-  background-image: url(/src/images/home/background-home-desktop.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+/* DeskTop Header Navigation */
+
+nav {
+  padding-top: 2.5rem;
+  margin-left: 38.125rem;
 }
 
 .header-ul {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  height: 5rem;
   margin: 0;
   padding: 0;
-  padding-top: 4rem;
-    margin-right: 10rem;
+  padding-right: 10rem;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
 }
 
 .header-ul li {
@@ -31,6 +38,22 @@ body {
 }
 
 .header-ul li a {
-  color: var(--textColor);
+  color: var(--colorWhite);
   text-decoration: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 2.8px;
+
+}
+
+/* Desktop Home Body */
+
+.background{
+  height: 100vh;
+  background-image: url(/src/images/home/background-home-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
