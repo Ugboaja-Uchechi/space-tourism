@@ -62,6 +62,7 @@ nav {
 .bg-body {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding-top: 15rem;
   padding-bottom: 1rem;
   height: 23.875rem;
@@ -75,7 +76,7 @@ nav {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-
+  color: var(--lightPurple);
 }
 
 .travel {
@@ -86,6 +87,7 @@ nav {
   letter-spacing: 4.724999904632568px;
   margin: 0;
   line-height: 34px;
+  color: var(--lightPurple);
 }
 
 .space {
@@ -97,4 +99,24 @@ nav {
   line-height: 172px;
   margin: 0;
   text-transform: uppercase;
+}
+
+.explore-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: var(--colorWhite);
+}
+
+.explore {
+  font-family: 'Bellefair', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 2px;
+  color: var(--navyBlue);
 }
