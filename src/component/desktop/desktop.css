@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2 family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 :root{
   --colorWhite: #fff;
@@ -11,6 +13,8 @@ body {
   margin: 0;
   padding: 0;
   color: var(--colorWhite);
+  height: 100vh;
+  /* overflow-y: hidden; */
 }
 
 /* DeskTop Header Navigation */
@@ -46,14 +50,54 @@ nav {
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 2.8px;
-
 }
 
 /* Desktop Home Body */
 
 .background{
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url(/src/images/home/background-home-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.bg-body {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15rem;
+  padding-bottom: 1rem;
+  /* width: 28.125rem; */
+  height: 23.875rem;
+}
+
+.home-text {
+  width: 28.125rem;
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+
+}
+
+.travel {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 4.724999904632568px;
+  margin: 0;
+  line-height: 34px;
+}
+
+.space {
+  font-family: 'Bellefair', sans-serif;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 172px;
+  margin: 0;
+  text-transform: uppercase;
 }
