@@ -28,7 +28,7 @@ const NavBar = () => {
     <>
       <header>
         <nav>
-          <ul>
+          <ul className="header-ul">
             {links.map((link) => (
             <li key={link.id}>
               <NavLink to={link.path} exact>{link.text}</NavLink>

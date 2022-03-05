@@ -1,12 +1,36 @@
+:root{
+  --textColor: #fff
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: var(--textColor);
 }
 
 .background{
-  height: 100%;
+  height: 100vh;
   background-image: url(/src/images/home/background-home-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  padding-top: 4rem;
+    margin-right: 10rem;
+}
+
+.header-ul li {
+  padding: 0 1rem;
+  list-style-type: none;
+}
+
+.header-ul li a {
+  color: var(--textColor);
+  text-decoration: none;
 }
