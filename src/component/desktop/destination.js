@@ -1,8 +1,11 @@
 import React from "react";
+import NavBar from "../Navbar";
+import './destination.css';
 
 function DesktopDestination() {
   return (
-    <>
+    <div className="home">
+    <NavBar />
       <h3>01 Pick your destination</h3>
       <div>
         <div>
@@ -22,7 +25,7 @@ function DesktopDestination() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 };
 
