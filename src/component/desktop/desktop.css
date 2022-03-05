@@ -12,7 +12,6 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: var(--colorWhite);
   height: 100vh;
 }
 
@@ -63,8 +62,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 15rem;
-  padding-bottom: 1rem;
+  padding-top: 12rem;
+  padding-bottom: 4rem;
   height: 23.875rem;
 }
 
@@ -99,6 +98,7 @@ nav {
   line-height: 172px;
   margin: 0;
   text-transform: uppercase;
+  color: var(--colorWhite);
 }
 
 .explore-flex {
