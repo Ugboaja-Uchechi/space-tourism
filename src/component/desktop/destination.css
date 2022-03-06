@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  color: var(--colorWhite);
 }
 
 /* DeskTop Header Navigation */
@@ -52,8 +53,24 @@ nav {
 
 /* DeskTop Body */
 
-.home {
-  background-image: url(/src/images/destination/background-destination-desktop.jpg);
+.destination {
+  background-image: url(../images/destination/background-destination-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.moon {
+  width: 27.813rem;
+  height: 27.813rem;
+}
+
+.destination-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.destination-width {
+  width: 27.813rem;
+  height: 29.5rem;
 }

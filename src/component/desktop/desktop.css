@@ -53,7 +53,7 @@ nav {
 /* Desktop Home Body */
 
 .background{
-  background-image: url(/src/images/home/background-home-desktop.jpg);
+  background-image: url(../images/home/background-home-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
