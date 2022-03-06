@@ -9,7 +9,7 @@ function DesktopDestination() {
     <NavBar />
       <div className="destination-flex">
         <div>
-          <h3>01 Pick your destination</h3>
+          <h3><span>01</span>Pick your destination</h3>
           <img src={moon} alt="moon" className="moon" />
         </div>
         <div className="destination-width">

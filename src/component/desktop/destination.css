@@ -63,6 +63,7 @@ nav {
 .moon {
   width: 27.813rem;
   height: 27.813rem;
+  padding-bottom: 7rem;
 }
 
 .destination-flex {
@@ -75,6 +76,19 @@ nav {
   width: 27.813rem;
   /* height: 29.5rem; */
 }
+
+span {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 4.724999904632568px;
+  color: var(--colorWhite);
+  mix-blend-mode: normal;
+opacity: 0.25;
+padding-right: 1rem;
+  }
 
 .destination-width h1 {
   font-family: 'Bellefair', sans-serif;
@@ -104,6 +118,10 @@ nav {
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 4.724999904632568px;
+  margin: 0;
+  padding-top: 8.25rem;
+  padding-bottom: 6rem;
+  text-transform: uppercase;
 }
 
 .line {
