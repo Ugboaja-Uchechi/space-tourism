@@ -14,14 +14,16 @@ function DesktopDestination() {
         </div>
         <div className="destination-width">
           <h1>Moon</h1>
-          <p>  See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
-          <div></div>
-          <div>
+          <p className="text">  See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+          <div className="line"></div>
+          <div className="distance">
             <div>
-              <p>Avg. distance 384,400 km</p>
+              <p className="avg">Avg. distance </p>
+              <p className="km">384,400 km</p>
             </div>
             <div>
-              <p>  Est. travel time 3 days</p>
+              <p className="avg time">Est. travel time</p>
+              <p className="km">3 days</p>
             </div>
           </div>
         </div>

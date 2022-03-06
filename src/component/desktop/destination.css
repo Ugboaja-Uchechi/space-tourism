@@ -6,6 +6,7 @@
   --colorWhite: #fff;
   --navyBlue: #0b0d17;
   --lightPurple: #d0d6f9;
+  --lineColor: #383B4B;
 }
 
 body {
@@ -72,5 +73,70 @@ nav {
 
 .destination-width {
   width: 27.813rem;
-  height: 29.5rem;
+  /* height: 29.5rem; */
+}
+
+.destination-width h1 {
+  font-family: 'Bellefair', sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115px;
+  letter-spacing: 0px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.text{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: var(--lightPurple);
+}
+
+.destination-flex h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 4.724999904632568px;
+}
+
+.line {
+  height: 2px;
+  background-color: var(--lineColor);
+}
+
+.distance {
+  display: flex;
+}
+
+.avg {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2.362499952316284px;
+  color: var(--lightPurple);
+  text-transform: uppercase;
+  padding-right: 7.813rem;
+}
+
+.km {
+  font-family: 'Bellefair', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: var(--colorWhite);
+}
+
+.time {
+  padding: 0;
 }
