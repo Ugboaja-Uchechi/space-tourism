@@ -55,7 +55,7 @@ nav {
 /* DeskTop Body */
 
 .destination {
-  background-image: url(../images/destination/background-destination-desktop.jpg);
+  background-image: url(/src/component/images/destination/background-destination-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -117,7 +117,7 @@ padding-right: 1rem;
   color: var(--lightPurple);
 }
 
-h3::first-letter {
+.destination-flex h3::first-letter {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 28px;
   font-style: normal;

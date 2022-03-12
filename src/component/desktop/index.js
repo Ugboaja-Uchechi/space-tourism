@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../Navbar';
-import './desktop.css';
+import '../desktop/css/desktop.css';
 
 function DesktopHome() {
 return (

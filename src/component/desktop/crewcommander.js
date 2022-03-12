@@ -1,8 +1,11 @@
 import React from "react";
+import NavBar from "../Navbar";
+import '../desktop/css/crew.css'
 
 function DesktopCrew() {
   return (
-    <>
+    <div>
+      <NavBar />
       <h3>02 Pick your Crew</h3>
       <div>
         <div>
@@ -12,7 +15,7 @@ function DesktopCrew() {
         </div>
           <div></div>
       </div>
-    </>
+    </div>
   )
 };
 

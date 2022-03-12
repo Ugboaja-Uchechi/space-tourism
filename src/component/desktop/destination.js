@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../Navbar";
-import './destination.css';
+import '../desktop/css/destination.css'
 import moon from '../images/destination/image-moon.png'
 
 function DesktopDestination() {
