@@ -51,17 +51,13 @@ nav {
   letter-spacing: 2.8px;
 }
 
+/* Crew Body */
+
 .crew {
   background-image: url(/src/component/images/crew/background-crew-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* .pick-crew-container  {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-} */
 
 .crew-flex {
   display: flex;
