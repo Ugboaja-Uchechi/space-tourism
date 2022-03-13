@@ -13,7 +13,6 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  height: 100vh;
   color: var(--colorWhite);
 }
 
@@ -56,4 +55,10 @@ nav {
   background-image: url(/src/component/images/crew/background-crew-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.crew-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
