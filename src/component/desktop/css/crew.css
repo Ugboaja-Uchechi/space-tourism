@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2 family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+:root{
+  --colorWhite: #fff;
+  --navyBlue: #0b0d17;
+  --lightPurple: #d0d6f9;
+  --lineColor: #383B4B;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--colorWhite);
+}
+
+/* DeskTop Header Navigation */
+
+nav {
+  padding-top: 3%;
+  margin-left: 38.125rem;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10%rem;
+  margin: 0;
+  padding: 0;
+  padding-right: 10rem;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+.header-ul li {
+  padding: 0 1rem;
+  list-style-type: none;
+}
+
+.header-ul li a {
+  color: var(--colorWhite);
+  text-decoration: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 2.8px;
+}
+
+/* Crew Body */
+
+.crew {
+  background-image: url(/src/component/images/crew/background-crew-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.crew-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pick-crew {
+  margin: 0;
+  margin-left: 15%;
+  margin-top: 2%;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+}
+
+.pick-crew::first-letter {
+  opacity: 0.25;
+}
+
+.commander {
+  font-family: 'Bellefair', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+
+.commander-name {
+  font-family: 'Bellefair', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 6%;
+}
+
+.about-commander {
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--lightPurple);
+  width: 28.063rem;
+  margin: 0;
+}
+
+.douglas {
+  width: 100%;
+  height: 35rem;
+}
