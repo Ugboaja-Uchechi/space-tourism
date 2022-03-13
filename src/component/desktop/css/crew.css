@@ -62,3 +62,38 @@ nav {
   justify-content: space-evenly;
   align-items: center;
 }
+
+.commander {
+  font-family: 'Bellefair', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+
+.commander-name {
+  font-family: 'Bellefair', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 6%;
+}
+
+.about-commander {
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--lightPurple);
+  width: 28.063rem;
+  margin: 0;
+}
