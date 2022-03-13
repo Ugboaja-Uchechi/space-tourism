@@ -74,3 +74,11 @@ nav {
   letter-spacing: 2.7px;
   color: var(--lightPurple);
 }
+
+.launch-vehicle {
+  font-family: 'Bellefair', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+}
