@@ -19,7 +19,7 @@ body {
 /* DeskTop Header Navigation */
 
 nav {
-  padding-top: 2.5rem;
+  padding-top: 3%;
   margin-left: 38.125rem;
 }
 
@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 5rem;
+  height: 10%rem;
   margin: 0;
   padding: 0;
   padding-right: 10rem;
@@ -57,10 +57,33 @@ nav {
   background-size: cover;
 }
 
+/* .pick-crew-container  {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
 .crew-flex {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.pick-crew {
+  margin: 0;
+  margin-left: 15%;
+  margin-top: 2%;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+}
+
+.pick-crew::first-letter {
+  opacity: 0.25;
 }
 
 .commander {
@@ -96,4 +119,9 @@ nav {
   color: var(--lightPurple);
   width: 28.063rem;
   margin: 0;
+}
+
+.douglas {
+  width: 100%;
+  height: 35rem;
 }
