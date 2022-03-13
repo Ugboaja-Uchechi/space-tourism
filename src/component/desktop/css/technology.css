@@ -73,6 +73,7 @@ nav {
   line-height: 19px;
   letter-spacing: 2.7px;
   color: var(--lightPurple);
+  text-transform: uppercase;
 }
 
 .launch-vehicle {
@@ -81,4 +82,14 @@ nav {
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
+  text-transform: uppercase;
+}
+
+.text {
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  width: 27.75rem;
 }
