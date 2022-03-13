@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../Navbar";
-import '../desktop/css/destination.css'
+import '../desktop/css/technology.css'
 import rocket from '../images/technology/image-launch-vehicle-portrait.jpg'
 
 function DesktopTechnology() {

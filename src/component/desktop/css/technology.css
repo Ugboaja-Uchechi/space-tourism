@@ -50,3 +50,11 @@ nav {
   line-height: 19px;
   letter-spacing: 2.8px;
 }
+
+/* Technology Body */
+
+.technology {
+  background-image: url(/src/component/images/technology/background-technology-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
