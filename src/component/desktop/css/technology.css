@@ -74,6 +74,24 @@ nav {
   letter-spacing: 2.7px;
   color: var(--lightPurple);
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 3%;
+}
+
+.space-launch {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  margin: 0;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+.space-launch::first-letter {
+  opacity: 0.25;
 }
 
 .launch-vehicle {
@@ -83,6 +101,8 @@ nav {
   font-size: 56px;
   line-height: 64px;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 6%;
 }
 
 .text {
@@ -92,8 +112,10 @@ nav {
   font-size: 18px;
   line-height: 32px;
   width: 27.75rem;
+  margin: 0;
 }
 
 .rocket {
-  height: 35rem;
+  height: 30rem;
+  margin-bottom: 16.8%;
 }

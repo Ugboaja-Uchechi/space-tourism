@@ -7,7 +7,7 @@ function DesktopTechnology() {
   return (
     <div className="technology">
       <NavBar />
-      <h3>03 Pick your Technology</h3>
+      <h3 className="space-launch">03 Space Launch 101</h3>
       <div className="technology-flex">
         <div>
           <p className="terminology">The terminology...</p>
