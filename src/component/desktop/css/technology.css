@@ -64,3 +64,13 @@ nav {
   justify-content: space-evenly;
   align-items: center;
 }
+
+.terminology {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: var(--lightPurple);
+}
