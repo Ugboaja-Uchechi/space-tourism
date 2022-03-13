@@ -58,3 +58,9 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.technology-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
