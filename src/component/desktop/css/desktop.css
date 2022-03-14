@@ -125,6 +125,10 @@ nav {
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) {
 
+  .background {
+    background-image: url(/src/component/images/home/background-home-tablet.jpg);
+  }
+
   nav {
     padding-top: 0;
     margin-left: 0;
@@ -146,7 +150,9 @@ and (max-device-width: 1024px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 16%;
+    margin-top: 27%;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .travel {
@@ -165,5 +171,7 @@ and (max-device-width: 1024px) {
   .home-text {
     font-size: 16px;
     line-height: 28px;
+    margin-bottom: 30%;
+    text-align: center;
   }
 }
