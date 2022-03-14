@@ -117,7 +117,14 @@ padding-right: 1rem;
   color: var(--lightPurple);
 }
 
-.destination-flex h3::first-letter {
+.first-text {
+  display: flex;
+  justify-content: space-evenly;
+  width: 49rem;
+  margin-top: 3rem;
+}
+
+.first-text h3::first-letter {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 28px;
   font-style: normal;
@@ -130,14 +137,13 @@ padding-right: 1rem;
   padding-right: 1rem;
 }
 
-.destination-flex h3 {
+.first-text h3 {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 4.724999904632568px;
-  margin-bottom: 6rem;
   text-transform: uppercase;
 }
 
@@ -187,4 +193,22 @@ and (max-device-width: 1024px) {
     flex-direction: column;
     justify-content: center;
   }
+
+  .first-text {
+    width: 28rem;
+    margin-top: 2rem;
+  }
+
+  .first-text h3 {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+  }
+
+  .first-text h3::first-letter {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+  }
+
 }
