@@ -124,10 +124,46 @@ nav {
 @media screen
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) {
+
+  nav {
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .header-ul li a {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+  }
+
+  .header-ul li a:nth-child(even) {
+    display: none;
+    color: pink;
+  }
+
   .bg-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 16%;
+  }
+
+  .travel {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 3.375px
+  }
+
+  .space {
+    line-height: 150px;
+    margin-top: 6%;
+    margin-bottom: 6.3%;
+  }
+
+  .home-text {
+    font-size: 16px;
+    line-height: 28px;
   }
 }
