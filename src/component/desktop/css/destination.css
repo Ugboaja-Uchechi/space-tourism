@@ -203,12 +203,18 @@ and (max-device-width: 1024px) {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 3.375px;
+    margin-bottom: 0;
   }
 
   .first-text h3::first-letter {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 3.375px;
+  }
+
+  .moon {
+    width: 18.75rem;
+    height: 18.75rem;
   }
 
 }
