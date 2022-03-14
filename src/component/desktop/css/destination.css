@@ -76,10 +76,10 @@ body {
   align-items: center;
 }
 
-.destination-width {
+/* .destination-width {
   width: 27.813rem;
-  /* height: 29.5rem; */
-}
+  height: 29.5rem;
+} */
 
 
 
@@ -176,6 +176,7 @@ padding-right: 1rem;
   line-height: 32px;
   letter-spacing: 0px;
   color: var(--colorWhite);
+  text-transform: uppercase;
 }
 
 .time {
@@ -215,6 +216,30 @@ and (max-device-width: 1024px) {
   .moon {
     width: 18.75rem;
     height: 18.75rem;
+  }
+
+  .destination-width h1 {
+    font-size: 80px;
+    line-height: 92px;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+  .destination-width > .text {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    width: 35.813rem;
+    margin-bottom: 7%;
+  }
+
+  .distance {
+    justify-content: space-around;
+    margin-bottom: 5%;
+  }
+
+  .avg {
+    padding-right: 0;
   }
 
 }
