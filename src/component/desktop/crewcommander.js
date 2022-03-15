@@ -7,7 +7,7 @@ function DesktopCrew() {
   return (
     <div className="crew">
       <NavBar />
-      <div>
+      <div className="pick-crew-container">
         <h3 className="pick-crew">02 Meet your Crew</h3>
       </div>
       <div className="crew-flex">

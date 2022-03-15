@@ -65,10 +65,17 @@ body {
   align-items: center;
 }
 
+.pick-crew-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 46rem;
+  margin-top: 3rem;
+}
+
 .pick-crew {
-  margin: 0;
-  margin-left: 15%;
-  margin-top: 2%;
+  /* margin: 0; */
+  /* margin-left: 15%;
+  margin-top: 2%; */
   font-family: 'Barlow Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -120,4 +127,20 @@ body {
 .douglas {
   width: 100%;
   height: 35.5rem;
+}
+
+@media screen
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+  .pick-crew-container {
+    width: 21rem;
+    margin-top: 2rem;
+  }
+
+  .pick-crew-container h3 {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    margin-bottom: 0;
+  }
 }
