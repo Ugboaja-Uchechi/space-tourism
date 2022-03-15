@@ -155,17 +155,21 @@ and (max-device-width: 1024px) {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 11%;
   }
 
   .commander-name {
     font-size: 40px;
     line-height: 46px;
     text-align: center;
+    margin-bottom: 3%;
   }
 
   .about-commander {
     font-size: 16px;
     line-height: 28px;
+    width: 28.625rem;
+    text-align: center;
+    margin-bottom: 15%;
   }
 }
