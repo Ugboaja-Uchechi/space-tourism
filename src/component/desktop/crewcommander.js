@@ -7,7 +7,7 @@ function DesktopCrew() {
   return (
     <div className="crew">
       <NavBar />
-      <div>
+      <div className="pick-crew-container">
         <h3 className="pick-crew">02 Meet your Crew</h3>
       </div>
       <div className="crew-flex">
@@ -17,7 +17,7 @@ function DesktopCrew() {
           <p className="about-commander">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
         </div>
         <div>
-          <img src={douglas} alt="moon" className="douglas" />
+          <img src={douglas} alt="Douglas Hurley" className="douglas" />
         </div>
       </div>
     </div>
