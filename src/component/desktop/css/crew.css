@@ -145,4 +145,22 @@ and (max-device-width: 1024px) {
     letter-spacing: 3.375px;
     margin-bottom: 0;
   }
+
+  .crew-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .commander {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .commander-name {
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+  }
 }
