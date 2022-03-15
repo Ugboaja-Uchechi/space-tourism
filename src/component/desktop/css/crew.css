@@ -163,4 +163,9 @@ and (max-device-width: 1024px) {
     line-height: 46px;
     text-align: center;
   }
+
+  .about-commander {
+    font-size: 16px;
+    line-height: 28px;
+  }
 }
