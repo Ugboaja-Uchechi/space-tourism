@@ -82,6 +82,13 @@ body {
   margin-bottom: 3%;
 }
 
+.space-launch-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 46rem;
+  margin-top: 5rem;
+}
+
 .space-launch {
   font-family: 'Barlow Condensed', sans-serif;
   font-style: normal;
@@ -90,8 +97,9 @@ body {
   line-height: 34px;
   letter-spacing: 4.725px;
   margin: 0;
-  margin-left: 15%;
-  margin-top: 3%;
+  /* margin-left: 15%;
+  margin-top: 3%; */
+  text-transform: uppercase;
 }
 
 .space-launch::first-letter {
@@ -138,5 +146,16 @@ and (max-device-width: 1024px) {
   .technology-flex {
     flex-direction: column;
     justify-content: center;
+  }
+
+  .space-launch-container {
+    width: 22rem;
+    margin-top: 2rem;
+  }
+
+  .space-launch {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
   }
 }

@@ -8,7 +8,9 @@ function DesktopTechnology() {
   return (
     <div className="technology">
       <NavBar />
-      <h3 className="space-launch">03 Space Launch 101</h3>
+      <div className="space-launch-container">
+        <h3 className="space-launch">03 Space Launch 101</h3>
+      </div>
       <div className="technology-flex">
         <div>
         <img src={rocketlandscape} alt="rocket launch" className="rocket-landscape" />
