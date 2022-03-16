@@ -16,6 +16,10 @@ body {
   color: var(--colorWhite);
 }
 
+.rocket-landscape {
+  display: none;
+}
+
 /* DeskTop Header Navigation */
 
 /* nav {
@@ -118,4 +122,16 @@ body {
 .rocket {
   height: 30rem;
   margin-bottom: 16.8%;
+}
+
+@media screen
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+
+  .rocket {
+    display: none;
+  }
+  .rocket-landscape {
+    display: block;
+  }
 }
