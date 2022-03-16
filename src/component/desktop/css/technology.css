@@ -134,4 +134,9 @@ and (max-device-width: 1024px) {
   .rocket-landscape {
     display: block;
   }
+
+  .technology-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
