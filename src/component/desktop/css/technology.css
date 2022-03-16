@@ -16,6 +16,10 @@ body {
   color: var(--colorWhite);
 }
 
+.rocket-landscape {
+  display: none;
+}
+
 /* DeskTop Header Navigation */
 
 /* nav {
@@ -78,6 +82,13 @@ body {
   margin-bottom: 3%;
 }
 
+.space-launch-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 46rem;
+  margin-top: 5rem;
+}
+
 .space-launch {
   font-family: 'Barlow Condensed', sans-serif;
   font-style: normal;
@@ -86,8 +97,9 @@ body {
   line-height: 34px;
   letter-spacing: 4.725px;
   margin: 0;
-  margin-left: 15%;
-  margin-top: 3%;
+  /* margin-left: 15%;
+  margin-top: 3%; */
+  text-transform: uppercase;
 }
 
 .space-launch::first-letter {
@@ -118,4 +130,58 @@ body {
 .rocket {
   height: 30rem;
   margin-bottom: 16.8%;
+}
+
+@media screen
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+
+  .rocket {
+    display: none;
+  }
+
+  .rocket-landscape-container {
+    margin: 3rem 0;
+  }
+
+  .rocket-landscape {
+    display: block;
+    height: 19.375rem;
+  }
+
+  .technology-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .space-launch-container {
+    width: 22rem;
+    margin-top: 2rem;
+  }
+
+  .space-launch {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+  }
+
+  .terminology {
+    text-align: center;
+  }
+
+  .launch-vehicle {
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;    
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    width: 28.625rem;
+    margin-bottom: 20%;
+  }
 }
