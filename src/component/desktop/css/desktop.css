@@ -119,7 +119,10 @@ nav {
   line-height: 37px;
   letter-spacing: 2px;
   color: var(--navyBlue);
+  text-transform: uppercase;
 }
+
+/* Tablet View */
 
 @media screen
 and (min-device-width: 768px) 
@@ -150,9 +153,10 @@ and (max-device-width: 1024px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 27%;
+    margin-top: 10%;
     padding-top: 0;
     padding-bottom: 0;
+    height: 100%;
   }
 
   .travel {
@@ -164,8 +168,6 @@ and (max-device-width: 1024px) {
 
   .space {
     line-height: 150px;
-    margin-top: 6%;
-    margin-bottom: 6.3%;
   }
 
   .home-text {
@@ -173,5 +175,67 @@ and (max-device-width: 1024px) {
     line-height: 28px;
     margin-bottom: 30%;
     text-align: center;
+  }
+
+  .explore {
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+  }
+
+  .explore-flex {
+    margin-bottom: 10%;
+  }
+}
+
+/* Mobile View */
+
+@media screen
+and (min-device-width: 375px)
+and (max-device-width: 480px) {
+
+  .background {
+    background-image: url(/src/component/images/home/background-home-mobile.jpg);
+  }
+  
+  nav {
+    display: none;
+  }
+
+  .bg-body {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .travel {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2.7px;
+  }
+
+  .space {
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .home-text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    width: 20.438rem;
+    margin-bottom: 20%;
+  }
+
+  .explore-flex {
+    margin-bottom: 5%;
+  }
+
+  .explore {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
   }
 }

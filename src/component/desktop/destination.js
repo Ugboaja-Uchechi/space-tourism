@@ -23,7 +23,7 @@ function DesktopDestination() {
               <p className="avg">Avg. distance </p>
               <p className="km">384,400 km</p>
             </div>
-            <div>
+            <div className="bottom">
               <p className="avg time">Est. travel time</p>
               <p className="km">3 days</p>
             </div>
