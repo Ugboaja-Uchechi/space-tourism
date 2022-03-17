@@ -292,6 +292,7 @@ and (max-device-width: 480px) {
     font-size: 56px;
     line-height: 64px;
     text-align: center;
+    margin-bottom: 1%;
   }
 
   .destination-width .text {
@@ -300,11 +301,13 @@ and (max-device-width: 480px) {
     text-align: center;
     width: 20.438rem;
     margin-right: 0;
+    margin-bottom: 10%;
   }
 
   .line {
     width: 20.438rem;
     text-align: center;
+    margin-bottom: 7%;
   }
 
   .distance {
@@ -324,6 +327,12 @@ and (max-device-width: 480px) {
   .km {
     font-size: 28px;
     line-height: 32px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .bottom {
+    margin-bottom: 20%;
   }
 
 }
