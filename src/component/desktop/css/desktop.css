@@ -197,9 +197,10 @@ and (max-device-width: 480px) {
   .background {
     background-image: url(/src/component/images/home/background-home-mobile.jpg);
   }
-  /* nav {
+  
+  nav {
     display: none;
-  } */
+  }
 
   .bg-body {
     flex-direction: column;

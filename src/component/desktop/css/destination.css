@@ -243,3 +243,48 @@ and (max-device-width: 1024px) {
   }
 
 }
+
+/* Mobile View */
+
+@media screen
+and (min-device-width: 375px)
+and (max-device-width: 480px) {
+  .destination {
+    background-image: url(/src/component/images/destination/background-destination-mobile.jpg);
+  }
+
+  .first-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .destination-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .first-text h3 {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-align: center;
+  }
+
+  .moon-container {
+    margin-top: 1rem;
+  }
+
+  .moon {
+    width: 10.625rem;
+    height: 10.625rem;
+  }
+
+  .destination-width h1 {
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+  }
+
+}
