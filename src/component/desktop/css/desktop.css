@@ -193,4 +193,18 @@ and (max-device-width: 1024px) {
     text-align: center;
     letter-spacing: 2.7px;
   }
+
+  .space {
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .home-text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    width: 20.438rem;
+    margin-bottom: 20%;
+  }
 }
