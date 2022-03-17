@@ -281,10 +281,49 @@ and (max-device-width: 480px) {
     height: 10.625rem;
   }
 
+  .destination-width {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .destination-width h1 {
     font-size: 56px;
     line-height: 64px;
     text-align: center;
+  }
+
+  .destination-width .text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    width: 20.438rem;
+    margin-right: 0;
+  }
+
+  .line {
+    width: 20.438rem;
+    text-align: center;
+  }
+
+  .distance {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .avg {
+    padding: 0;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2.3625px;
+  }
+
+  .km {
+    font-size: 28px;
+    line-height: 32px;
   }
 
 }
