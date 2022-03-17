@@ -122,6 +122,12 @@ nav {
   text-transform: uppercase;
 }
 
+.explore-flex:hover {
+  border: 45px solid rgb(11 13 23 / 55%);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 /* Tablet View */
 
 @media screen
