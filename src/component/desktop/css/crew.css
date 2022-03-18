@@ -131,7 +131,7 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px) {
 
   .crew {
-    background-image: url(/src//component/images/crew/background-crew-tablet.jpg);
+    background-image: url(/src/component/images/crew/background-crew-tablet.jpg);
   }
 
   .pick-crew-container {
@@ -171,5 +171,13 @@ and (max-device-width: 1024px) {
     width: 28.625rem;
     text-align: center;
     margin-bottom: 15%;
+  }
+}
+
+@media screen
+and (min-device-width: 375px)
+and (max-device-width: 480px) {
+  .crew {
+    background-image: url(/src/component/images/crew/background-crew-mobile.jpg);
   }
 }
