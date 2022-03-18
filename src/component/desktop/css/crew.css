@@ -210,4 +210,16 @@ and (max-device-width: 480px) {
     width: 11.063rem;
     height: 13.875rem;
   }
+
+  .commander {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .commander-name {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
 }
