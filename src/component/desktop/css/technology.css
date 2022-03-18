@@ -185,3 +185,17 @@ and (max-device-width: 1024px) {
     margin-bottom: 20%;
   }
 }
+
+@media screen
+and (min-device-width: 375px)
+and (max-device-width: 480px) {
+  .technology {
+    background-image: url(/src/component/images/technology/background-technology-mobile.jpg);
+  }
+  .space-launch {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-align: center;
+  }
+}
