@@ -189,6 +189,10 @@ and (max-device-width: 1024px) {
 @media screen
 and (min-device-width: 375px)
 and (max-device-width: 480px) {
+  .rocket {
+    display: none;
+  }
+
   .technology {
     background-image: url(/src/component/images/technology/background-technology-mobile.jpg);
   }
@@ -197,5 +201,17 @@ and (max-device-width: 480px) {
     line-height: 19px;
     letter-spacing: 2.7px;
     text-align: center;
+  }
+
+  .technology-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rocket-landscape {
+    display: block;
+    width: 23.438rem;
+    height: 10.625rem;
   }
 }
