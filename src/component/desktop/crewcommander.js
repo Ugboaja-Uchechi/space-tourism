@@ -11,6 +11,9 @@ function DesktopCrew() {
         <h3 className="pick-crew">02 Meet your Crew</h3>
       </div>
       <div className="crew-flex">
+      <div>
+          <img src={douglas} alt="Douglas Hurley" className="mobile" />
+        </div>
         <div>
           <h3 className="commander">Commander</h3>
           <h2 className="commander-name">Douglas Hurley</h2>

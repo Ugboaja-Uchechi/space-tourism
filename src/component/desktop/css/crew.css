@@ -16,6 +16,10 @@ body {
   color: var(--colorWhite);
 }
 
+.mobile {
+  display: none;
+}
+
 /* DeskTop Header Navigation */
 
 /* nav {
@@ -177,7 +181,33 @@ and (max-device-width: 1024px) {
 @media screen
 and (min-device-width: 375px)
 and (max-device-width: 480px) {
+  .douglas {
+    display: none;
+  }
+
   .crew {
     background-image: url(/src/component/images/crew/background-crew-mobile.jpg);
+  }
+
+  .pick-crew-container {
+    width: 100%;
+  }
+
+  .crew-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pick-crew {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+  }
+
+  .mobile {
+    display: block;
+    width: 11.063rem;
+    height: 13.875rem;
   }
 }
