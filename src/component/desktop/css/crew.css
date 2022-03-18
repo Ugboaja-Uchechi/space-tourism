@@ -205,6 +205,13 @@ and (max-device-width: 480px) {
     letter-spacing: 2.7px;
   }
 
+  .mobile-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .mobile {
     display: block;
     width: 11.063rem;
@@ -221,5 +228,18 @@ and (max-device-width: 480px) {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
+  }
+
+  .about-commander {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    width: 20.438rem;
+  }
+
+  .crew-line {
+    height: 2px;
+    background-color: var(--lineColor);
+    width: 20.438rem;
   }
 }
