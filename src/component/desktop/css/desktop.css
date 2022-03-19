@@ -17,6 +17,10 @@ body {
 
 /* DeskTop Header Navigation */
 
+.menu {
+  display: none;
+}
+
 nav {
   padding-top: 2.5rem;
   margin-left: 38.125rem;
@@ -255,23 +259,25 @@ and (max-device-width: 480px) {
   }
 
   .menu {
+    display: block;
+  }
+
+  .menu img {
     width: 30px;
-    height: 3px;
-    background-color: var(--lightPurple);
     margin-right: 24px;
     z-index: 1;
   }
 
-  .menu2 {
+  /* .menu2 {
     margin-top: 8px;
-  }
+  } */
 
   .bg-body {
     flex-direction: column;
     justify-content: center;
     height: 100%;
     padding-top: 4rem;
-    padding-bottom: 4.3rem;
+    padding-bottom: 4.8rem;
   }
 
   .travel {
