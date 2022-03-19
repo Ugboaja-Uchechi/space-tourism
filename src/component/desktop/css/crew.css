@@ -20,41 +20,6 @@ body {
   display: none;
 }
 
-/* DeskTop Header Navigation */
-
-/* nav {
-  padding-top: 3%;
-  margin-left: 38.125rem;
-}
-
-.header-ul {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 5rem;
-  margin: 0;
-  padding: 0;
-  padding-right: 10rem;
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(81.5485px);
-}
-
-.header-ul li {
-  padding: 0 1rem;
-  list-style-type: none;
-}
-
-.header-ul li a {
-  color: var(--colorWhite);
-  text-decoration: none;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 2.8px;
-} */
-
 /* Crew Body */
 
 .crew {

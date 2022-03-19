@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import hamburger from '.'
-
+import menu from './images/shared/icon-hamburger.svg'
 const NavBar = () => {
   const links = [
     {
@@ -33,7 +32,9 @@ const NavBar = () => {
     <>
       <header>
         <nav>
-          <div className="menu"></div>
+          <div className="menu">
+            <img src={menu} alt="hamburger menu" />
+          </div>
           {/* <div className="menu menu2"></div>
           <div className="menu menu2"></div> */}
           <ul className="header-ul">
