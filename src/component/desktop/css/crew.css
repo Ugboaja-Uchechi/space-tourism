@@ -16,9 +16,13 @@ body {
   color: var(--colorWhite);
 }
 
+.mobile {
+  display: none;
+}
+
 /* DeskTop Header Navigation */
 
-nav {
+/* nav {
   padding-top: 3%;
   margin-left: 38.125rem;
 }
@@ -27,7 +31,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 10%rem;
+  height: 5rem;
   margin: 0;
   padding: 0;
   padding-right: 10rem;
@@ -49,7 +53,7 @@ nav {
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 2.8px;
-}
+} */
 
 /* Crew Body */
 
@@ -65,10 +69,14 @@ nav {
   align-items: center;
 }
 
+.pick-crew-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 46rem;
+  margin-top: 3rem;
+}
+
 .pick-crew {
-  margin: 0;
-  margin-left: 15%;
-  margin-top: 2%;
   font-family: 'Barlow Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -119,5 +127,125 @@ nav {
 
 .douglas {
   width: 100%;
-  height: 35rem;
+  height: 35.5rem;
+}
+
+@media screen
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+
+  .crew {
+    background-image: url(/src/component/images/crew/background-crew-tablet.jpg);
+  }
+
+  .pick-crew-container {
+    width: 21rem;
+    margin-top: 2rem;
+  }
+
+  .pick-crew-container h3 {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    margin-bottom: 0;
+  }
+
+  .crew-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .commander {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 11%;
+  }
+
+  .commander-name {
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+  .about-commander {
+    font-size: 16px;
+    line-height: 28px;
+    width: 28.625rem;
+    text-align: center;
+    margin-bottom: 15%;
+  }
+}
+
+@media screen
+and (min-device-width: 375px)
+and (max-device-width: 480px) {
+  .douglas {
+    display: none;
+  }
+
+  .crew {
+    background-image: url(/src/component/images/crew/background-crew-mobile.jpg);
+  }
+
+  .pick-crew-container {
+    width: 100%;
+  }
+
+  .crew-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pick-crew {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    margin-bottom: 10%;
+  }
+
+  .mobile-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+
+  .mobile {
+    display: block;
+    width: 11.063rem;
+    height: 13.875rem;
+  }
+
+  .commander {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .commander-name {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .about-commander {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    width: 20.438rem;
+  }
+
+  .crew-line {
+    height: 2px;
+    background-color: var(--lineColor);
+    width: 20.438rem;
+  }
+
+  .mobile-bottom {
+    margin-bottom: 30%;
+  }
 }

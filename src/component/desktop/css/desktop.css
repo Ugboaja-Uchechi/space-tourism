@@ -50,6 +50,14 @@ nav {
   letter-spacing: 2.8px;
 }
 
+span {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-right: 1rem;
+  width: 14px;
+}
+
 /* Desktop Home Body */
 
 .background{
@@ -119,4 +127,181 @@ nav {
   line-height: 37px;
   letter-spacing: 2px;
   color: var(--navyBlue);
+  text-transform: uppercase;
+}
+
+.explore-flex:hover {
+  border: 45px solid rgb(11 13 23 / 55%);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Tablet View */
+
+@media screen
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+
+  span {
+    display: none;
+  }
+
+  .background {
+    background-image: url(/src/component/images/home/background-home-tablet.jpg);
+  }
+
+  nav {
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .header-ul li a {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+  }
+
+  .header-ul li a:nth-child(even) {
+    display: none;
+    color: pink;
+  }
+
+  .bg-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+  }
+
+  .travel {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 3.375px
+  }
+
+  .space {
+    line-height: 150px;
+  }
+
+  .home-text {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30%;
+    text-align: center;
+  }
+
+  .explore {
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+  }
+
+  .explore-flex {
+    margin-bottom: 10%;
+  }
+}
+
+/* Mobile View */
+
+@media screen
+and (min-device-width: 375px)
+and (max-device-width: 480px) {
+
+  .background {
+    background-image: url(/src/component/images/home/background-home-mobile.jpg);
+  }
+  
+  .header-ul {
+    position: fixed;
+    justify-content: flex-start;
+    align-items: baseline;
+    inset: 0 0 0 33%;
+    flex-direction: column;
+    padding-right: 0;
+    padding: min(30vh, 10rem) 2em;
+    height: 100%;
+    width: 15.875rem;
+    z-index: 2;
+  }
+
+.header-ul li {
+  padding-bottom: 2rem;
+}
+
+  .header-ul li a {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+  }
+
+  span {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.700000047683716px;
+    text-align: left;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 0;
+    padding-top: 1.5rem;
+  }
+
+  .menu {
+    width: 30px;
+    height: 3px;
+    background-color: var(--lightPurple);
+    margin-right: 24px;
+    z-index: 1;
+  }
+
+  .menu2 {
+    margin-top: 8px;
+  }
+
+  .bg-body {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4.3rem;
+  }
+
+  .travel {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2.7px;
+  }
+
+  .space {
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .home-text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    width: 20.438rem;
+    margin-bottom: 20%;
+  }
+
+  .explore-flex {
+    margin-bottom: 5%;
+  }
+
+  .explore {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
+  }
 }

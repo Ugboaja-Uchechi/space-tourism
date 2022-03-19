@@ -7,9 +7,11 @@ function DesktopDestination() {
   return (
     <div className="destination">
     <NavBar />
+      <div className="first-text">
+        <h3>01 Pick your destination</h3>
+      </div>
       <div className="destination-flex">
         <div className="moon-container">
-          <h3>01 Pick your destination</h3>
           <img src={moon} alt="moon" className="moon" />
         </div>
         <div className="destination-width">
@@ -21,7 +23,7 @@ function DesktopDestination() {
               <p className="avg">Avg. distance </p>
               <p className="km">384,400 km</p>
             </div>
-            <div>
+            <div className="bottom">
               <p className="avg time">Est. travel time</p>
               <p className="km">3 days</p>
             </div>
