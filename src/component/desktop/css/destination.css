@@ -17,41 +17,6 @@ body {
   color: var(--colorWhite);
 }
 
-/* DeskTop Header Navigation */
-
-/* nav {
-  padding-top: 2.5rem;
-  margin-left: 38.125rem;
-}
-
-.header-ul {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 5rem;
-  margin: 0;
-  padding: 0;
-  padding-right: 10rem;
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(81.5485px);
-}
-
-.header-ul li {
-  padding: 0 1rem;
-  list-style-type: none;
-}
-
-.header-ul li a {
-  color: var(--colorWhite);
-  text-decoration: none;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 2.8px;
-} */
-
 /* DeskTop Body */
 
 .destination {
@@ -75,26 +40,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-
-/* .destination-width {
-  width: 27.813rem;
-  height: 29.5rem;
-} */
-
-
-
-/* span {
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 34px;
-  letter-spacing: 4.724999904632568px;
-  color: var(--colorWhite);
-  mix-blend-mode: normal;
-opacity: 0.25;
-padding-right: 1rem;
-  } */
 
 .destination-width h1 {
   font-family: 'Bellefair', sans-serif;

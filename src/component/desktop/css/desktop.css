@@ -268,10 +268,6 @@ and (max-device-width: 480px) {
     z-index: 1;
   }
 
-  /* .menu2 {
-    margin-top: 8px;
-  } */
-
   .bg-body {
     flex-direction: column;
     justify-content: center;
