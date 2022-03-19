@@ -28,6 +28,9 @@ const NavBar = () => {
     <>
       <header>
         <nav>
+          <div className="menu"></div>
+          <div className="menu menu2"></div>
+          <div className="menu menu2"></div>
           <ul className="header-ul">
             {links.map((link) => (
             <li key={link.id}>

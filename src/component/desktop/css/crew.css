@@ -16,6 +16,10 @@ body {
   color: var(--colorWhite);
 }
 
+.mobile {
+  display: none;
+}
+
 /* DeskTop Header Navigation */
 
 /* nav {
@@ -131,7 +135,7 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px) {
 
   .crew {
-    background-image: url(/src//component/images/crew/background-crew-tablet.jpg);
+    background-image: url(/src/component/images/crew/background-crew-tablet.jpg);
   }
 
   .pick-crew-container {
@@ -171,5 +175,77 @@ and (max-device-width: 1024px) {
     width: 28.625rem;
     text-align: center;
     margin-bottom: 15%;
+  }
+}
+
+@media screen
+and (min-device-width: 375px)
+and (max-device-width: 480px) {
+  .douglas {
+    display: none;
+  }
+
+  .crew {
+    background-image: url(/src/component/images/crew/background-crew-mobile.jpg);
+  }
+
+  .pick-crew-container {
+    width: 100%;
+  }
+
+  .crew-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pick-crew {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    margin-bottom: 10%;
+  }
+
+  .mobile-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+
+  .mobile {
+    display: block;
+    width: 11.063rem;
+    height: 13.875rem;
+  }
+
+  .commander {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .commander-name {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .about-commander {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    width: 20.438rem;
+  }
+
+  .crew-line {
+    height: 2px;
+    background-color: var(--lineColor);
+    width: 20.438rem;
+  }
+
+  .mobile-bottom {
+    margin-bottom: 30%;
   }
 }

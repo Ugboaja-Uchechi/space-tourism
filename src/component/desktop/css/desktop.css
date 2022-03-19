@@ -122,6 +122,12 @@ nav {
   text-transform: uppercase;
 }
 
+.explore-flex:hover {
+  border: 45px solid rgb(11 13 23 / 55%);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 /* Tablet View */
 
 @media screen
@@ -198,8 +204,37 @@ and (max-device-width: 480px) {
     background-image: url(/src/component/images/home/background-home-mobile.jpg);
   }
   
+  .header-ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .header-ul li a {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+  }
+
   nav {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 0;
+  }
+
+  .menu {
+    width: 30px;
+    height: 3px;
+    background-color: var(--lightPurple);
+    margin-right: 24px;
+    z-index: 1;
+  }
+
+  .menu2 {
+    margin-top: 8px;
   }
 
   .bg-body {
