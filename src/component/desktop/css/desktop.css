@@ -50,6 +50,14 @@ nav {
   letter-spacing: 2.8px;
 }
 
+span {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-right: 1rem;
+  width: 14px;
+}
+
 /* Desktop Home Body */
 
 .background{
@@ -134,6 +142,10 @@ nav {
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) {
 
+  span {
+    display: none;
+  }
+
   .background {
     background-image: url(/src/component/images/home/background-home-tablet.jpg);
   }
@@ -205,12 +217,21 @@ and (max-device-width: 480px) {
   }
   
   .header-ul {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: fixed;
+    justify-content: flex-start;
+    align-items: baseline;
+    inset: 0 0 0 33%;
     flex-direction: column;
     padding-right: 0;
+    padding: min(30vh, 10rem) 2em;
+    height: 100%;
+    width: 15.875rem;
+    z-index: 2;
   }
+
+.header-ul li {
+  padding-bottom: 2rem;
+}
 
   .header-ul li a {
     font-size: 16px;
@@ -218,11 +239,19 @@ and (max-device-width: 480px) {
     letter-spacing: 2.7px;
   }
 
+  span {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.700000047683716px;
+    text-align: left;
+  }
+
   nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin-left: 0;
+    padding-top: 1.5rem;
   }
 
   .menu {
@@ -241,6 +270,8 @@ and (max-device-width: 480px) {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4.3rem;
   }
 
   .travel {
