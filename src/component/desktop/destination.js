@@ -8,7 +8,7 @@ function DesktopDestination() {
     <div className="destination">
     <NavBar />
       <div className="first-text">
-        <h3>01 Pick your destination</h3>
+        <h3 className="first-text-h3"><span className="numbers">01</span> Pick your destination</h3>
       </div>
       <div className="destination-flex">
         <div className="moon-container">

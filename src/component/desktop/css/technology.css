@@ -65,7 +65,14 @@ body {
   text-transform: uppercase;
 }
 
-.space-launch::first-letter {
+.numbers {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: var(--colorWhite);
   opacity: 0.25;
 }
 
@@ -128,6 +135,13 @@ and (max-device-width: 1024px) {
     letter-spacing: 3.375px;
   }
 
+  .numbers {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    text-align: left;
+  }
+
   .terminology {
     text-align: center;
   }
@@ -162,6 +176,7 @@ and (max-device-width: 480px) {
 
   .space-launch-container {
     width: 100%;
+    margin-top: 2rem;
     margin-bottom: 10%;
   }
 
@@ -170,6 +185,18 @@ and (max-device-width: 480px) {
     line-height: 19px;
     letter-spacing: 2.7px;
     text-align: center;
+  }
+
+  .numbers {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    /* font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    text-align: left; */
   }
 
   .technology-flex {

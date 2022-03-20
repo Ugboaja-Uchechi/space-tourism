@@ -8,7 +8,7 @@ function DesktopCrew() {
     <div className="crew">
       <NavBar />
       <div className="pick-crew-container">
-        <h3 className="pick-crew">02 Meet your Crew</h3>
+        <h3 className="pick-crew"><span className="numbers">02</span> Meet your Crew</h3>
       </div>
       <div className="crew-flex">
        <div className="mobile-flex">
