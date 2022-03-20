@@ -203,6 +203,7 @@ and (max-device-width: 480px) {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
   }
 
   .destination-flex {
@@ -215,6 +216,7 @@ and (max-device-width: 480px) {
     line-height: 19px;
     letter-spacing: 2.7px;
     text-align: center;
+    margin-top: 0;
   }
 
   .moon-container {

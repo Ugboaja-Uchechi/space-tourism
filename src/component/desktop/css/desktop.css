@@ -230,12 +230,13 @@ and (max-device-width: 480px) {
     padding: min(30vh, 10rem) 2em;
     height: 100%;
     width: 15.875rem;
+    display: none;
     /* z-index: 2; */
   }
 
-.header-ul li {
-  padding-bottom: 2rem;
-}
+  .header-ul li {
+    padding-bottom: 2rem;
+  }
 
   .header-ul li a {
     font-size: 16px;
@@ -260,6 +261,7 @@ and (max-device-width: 480px) {
 
   .menu {
     display: block;
+    margin-top: 2%;
   }
 
   .hamburger {
