@@ -51,10 +51,6 @@ body {
   text-transform: uppercase;
 }
 
-.pick-crew::first-letter {
-  opacity: 0.25;
-}
-
 .commander {
   font-family: 'Bellefair', sans-serif;
   font-style: normal;
@@ -108,7 +104,7 @@ and (max-device-width: 1024px) {
     margin-top: 2rem;
   }
 
-  .pick-crew-container h3 {
+  .pick-crew {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 3.375px;

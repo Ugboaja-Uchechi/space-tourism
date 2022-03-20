@@ -40,7 +40,7 @@ const NavBar = () => {
           <ul className="header-ul">
             {links.map((link) => (
             <li key={link.id}>
-              <NavLink to={link.path} exact><span aria-hidden = "true">{link.num}</span>{link.text}</NavLink>
+              <NavLink to={link.path} exact><span aria-hidden = "true" className="navlink-span">{link.num}</span>{link.text}</NavLink>
             </li>
             ))}
           </ul>

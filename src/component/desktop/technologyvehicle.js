@@ -9,7 +9,7 @@ function DesktopTechnology() {
     <div className="technology">
       <NavBar />
       <div className="space-launch-container">
-        <h3 className="space-launch">03 Space Launch 101</h3>
+        <h3 className="space-launch"><span className="numbers">03</span>Space Launch 101</h3>
       </div>
       <div className="technology-flex">
         <div className="rocket-landscape-container">
