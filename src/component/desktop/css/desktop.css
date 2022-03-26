@@ -153,7 +153,11 @@ and (max-device-width: 1024px) {
     background-image: url(/src/component/images/home/background-home-tablet.jpg);
   }
 
-  /* DeskTop Header Navigiation */
+  /* Tablet Header Navigiation */
+
+  .nav {
+    padding-top: 0;
+  }
 
   .header-ul {
     padding-right: 2rem;
@@ -174,6 +178,8 @@ and (max-device-width: 1024px) {
     display: none;
     color: pink;
   }
+
+  /* Tablet Body */
 
   .bg-body {
     display: flex;
@@ -218,7 +224,7 @@ and (max-device-width: 1024px) {
 /* Mobile View */
 
 @media screen
-and (min-device-width: 375px)
+and (min-device-width: 320px)
 and (max-device-width: 480px) {
 
   .background {
