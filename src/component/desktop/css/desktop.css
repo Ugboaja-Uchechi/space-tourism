@@ -21,19 +21,18 @@ body {
   display: none;
 }
 
-nav {
+.nav {
+  display: flex;
+  justify-content: flex-end;
   padding-top: 2.5rem;
-  margin-left: 38.125rem;
 }
 
 .header-ul {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   height: 5rem;
   margin: 0;
-  padding: 0;
-  padding-right: 10rem;
+  padding: 0 5rem;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(81.5485px);
 }
@@ -154,9 +153,15 @@ and (max-device-width: 1024px) {
     background-image: url(/src/component/images/home/background-home-tablet.jpg);
   }
 
-  nav {
-    padding-top: 0;
-    margin-left: 0;
+  /* DeskTop Header Navigiation */
+
+  .header-ul {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .header-ul li {
+    padding: 0 0.7rem;
   }
 
   .header-ul li a {
@@ -255,7 +260,7 @@ and (max-device-width: 480px) {
     text-align: left;
   }
 
-  nav {
+  .nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -272,7 +277,7 @@ and (max-device-width: 480px) {
   .close {
     position: absolute;
     top: 33.95px;
-    right: 60px;
+    right: 90px;
     margin-right: 0;
   }
 

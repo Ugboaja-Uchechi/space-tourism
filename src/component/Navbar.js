@@ -34,7 +34,7 @@ const NavBar = () => {
   return(
     <>
       <header>
-        <nav>
+        <nav className="nav">
           <div className="menu">
             <img src={menu} alt="hamburger menu" onClick={showNavBar} />
           </div>
