@@ -231,8 +231,6 @@ and (max-device-width: 480px) {
     padding: min(30vh, 10rem) 2em;
     height: 100%;
     width: 15.875rem;
-    /* display: none; */
-    /* z-index: 2; */
   }
 
   .header-ul.active {
@@ -281,12 +279,7 @@ and (max-device-width: 480px) {
   .hamburger {
     width: 30px;
     margin-right: 24px;
-    /* z-index: 1; */
   }
-
-  /* .menu .close {
-    z-index: 3;
-  } */
 
   .bg-body {
     flex-direction: column;
