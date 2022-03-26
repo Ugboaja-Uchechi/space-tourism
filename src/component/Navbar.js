@@ -38,12 +38,13 @@ const NavBar = () => {
           <div className="menu">
             <img src={menu} alt="hamburger menu" onClick={showNavBar} />
           </div>
-          <div className="menu close">
-            <img src={close} alt="close button" onClick={showNavBar} />
-          </div>
+
           {/* <div className="menu menu2"></div>
           <div className="menu menu2"></div> */}
           <ul className={navbarOpen ? "header-ul active" : "header-ul"} onClick={showNavBar}>
+          <div className="menu close">
+            <img src={close} alt="close button" onClick={showNavBar} />
+          </div>
             {links.map((link) => (
             <li key={link.id}>
               <NavLink to={link.path} exact><span aria-hidden = "true" className="navlink-span">{link.num}</span>{link.text}</NavLink>

@@ -219,10 +219,6 @@ and (max-device-width: 480px) {
   .background {
     background-image: url(/src/component/images/home/background-home-mobile.jpg);
   }
-
-  .close {
-    margin-right: 23rem;
-  }
   
   .header-ul {
     position: fixed;
@@ -272,6 +268,14 @@ and (max-device-width: 480px) {
   .menu {
     display: block;
     margin-top: 2%;
+    margin-right: 1.5rem;
+  }
+
+  .close {
+    position: absolute;
+    top: 33.95px;
+    right: 60px;
+    margin-right: 0;
   }
 
   .hamburger {
