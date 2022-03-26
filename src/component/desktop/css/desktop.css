@@ -219,9 +219,14 @@ and (max-device-width: 480px) {
   .background {
     background-image: url(/src/component/images/home/background-home-mobile.jpg);
   }
+
+  .close {
+    margin-right: 23rem;
+  }
   
   .header-ul {
     position: fixed;
+    transform: translateX(100%);
     justify-content: flex-start;
     align-items: baseline;
     inset: 0 0 0 33%;
@@ -230,8 +235,13 @@ and (max-device-width: 480px) {
     padding: min(30vh, 10rem) 2em;
     height: 100%;
     width: 15.875rem;
-    display: none;
+    /* display: none; */
     /* z-index: 2; */
+  }
+
+  .header-ul.active {
+    transform: translateX(0);
+    transition: 450ms;
   }
 
   .header-ul li {
