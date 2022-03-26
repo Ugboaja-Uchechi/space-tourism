@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import menu from './images/shared/icon-hamburger.svg'
+import close from './images/shared/icon-close.svg'
 const NavBar = () => {
   const links = [
     {
@@ -28,16 +29,19 @@ const NavBar = () => {
       num: '03'
     },
   ];
+  const [navbarOpen, setNavbarOpen] = useState(false)
+  const showNavBar = () => setNavbarOpen(!navbarOpen);
   return(
     <>
       <header>
-        <nav>
+        <nav className="nav">
           <div className="menu">
-            <img src={menu} alt="hamburger menu" />
+            <img src={menu} alt="hamburger menu" onClick={showNavBar} />
           </div>
-          {/* <div className="menu menu2"></div>
-          <div className="menu menu2"></div> */}
-          <ul className="header-ul">
+          <ul className={navbarOpen ? "header-ul active" : "header-ul"} onClick={showNavBar}>
+          <div className="menu close">
+            <img src={close} alt="close button" onClick={showNavBar} />
+          </div>
             {links.map((link) => (
             <li key={link.id}>
               <NavLink to={link.path} exact><span aria-hidden = "true" className="navlink-span">{link.num}</span>{link.text}</NavLink>

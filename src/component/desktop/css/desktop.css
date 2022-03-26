@@ -21,19 +21,18 @@ body {
   display: none;
 }
 
-nav {
+.nav {
+  display: flex;
+  justify-content: flex-end;
   padding-top: 2.5rem;
-  margin-left: 38.125rem;
 }
 
 .header-ul {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   height: 5rem;
   margin: 0;
-  padding: 0;
-  padding-right: 10rem;
+  padding: 0 5rem;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(81.5485px);
 }
@@ -154,9 +153,19 @@ and (max-device-width: 1024px) {
     background-image: url(/src/component/images/home/background-home-tablet.jpg);
   }
 
-  nav {
+  /* Tablet Header Navigiation */
+
+  .nav {
     padding-top: 0;
-    margin-left: 0;
+  }
+
+  .header-ul {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .header-ul li {
+    padding: 0 0.7rem;
   }
 
   .header-ul li a {
@@ -169,6 +178,8 @@ and (max-device-width: 1024px) {
     display: none;
     color: pink;
   }
+
+  /* Tablet Body */
 
   .bg-body {
     display: flex;
@@ -213,7 +224,7 @@ and (max-device-width: 1024px) {
 /* Mobile View */
 
 @media screen
-and (min-device-width: 375px)
+and (min-device-width: 320px)
 and (max-device-width: 480px) {
 
   .background {
@@ -222,6 +233,7 @@ and (max-device-width: 480px) {
   
   .header-ul {
     position: fixed;
+    transform: translateX(100%);
     justify-content: flex-start;
     align-items: baseline;
     inset: 0 0 0 33%;
@@ -230,8 +242,11 @@ and (max-device-width: 480px) {
     padding: min(30vh, 10rem) 2em;
     height: 100%;
     width: 15.875rem;
-    display: none;
-    /* z-index: 2; */
+  }
+
+  .header-ul.active {
+    transform: translateX(0);
+    transition: 450ms;
   }
 
   .header-ul li {
@@ -251,7 +266,7 @@ and (max-device-width: 480px) {
     text-align: left;
   }
 
-  nav {
+  .nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -262,17 +277,20 @@ and (max-device-width: 480px) {
   .menu {
     display: block;
     margin-top: 2%;
+    margin-right: 1.5rem;
+  }
+
+  .close {
+    position: absolute;
+    top: 33.95px;
+    right: 90px;
+    margin-right: 0;
   }
 
   .hamburger {
     width: 30px;
     margin-right: 24px;
-    /* z-index: 1; */
   }
-
-  /* .menu .close {
-    z-index: 3;
-  } */
 
   .bg-body {
     flex-direction: column;
