@@ -9,13 +9,6 @@
   --lineColor: #383B4B;
 }
 
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color: var(--colorWhite);
-}
-
 .rocket-landscape {
   display: none;
 }
@@ -87,7 +80,7 @@ body {
   margin-bottom: 6%;
 }
 
-.text {
+/* .text {
   font-family: 'Barlow', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -95,7 +88,7 @@ body {
   line-height: 32px;
   width: 27.75rem;
   margin: 0;
-}
+} */
 
 .rocket {
   height: 30rem;

@@ -5,7 +5,7 @@ import '../desktop/css/desktop.css';
 function DesktopHome() {
 return (
   <div className='background'>
-        <NavBar />
+    <NavBar />
     <main className='home-flex'>
       <div className='bg-body'>
         <div>

@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  color: var(--colorWhite);
 }
 
 /* DeskTop Header Navigation */
@@ -230,13 +231,16 @@ and (max-device-width: 480px) {
   .background {
     background-image: url(/src/component/images/home/background-home-mobile.jpg);
   }
+
+  /* Mobile Navigation */
   
   .header-ul {
     position: fixed;
     transform: translateX(100%);
     justify-content: flex-start;
     align-items: baseline;
-    inset: 0 0 0 33%;
+    inset: 0 0 0 42%;
+    z-index: 3;
     flex-direction: column;
     padding-right: 0;
     padding: min(30vh, 10rem) 2em;
@@ -291,6 +295,8 @@ and (max-device-width: 480px) {
     width: 30px;
     margin-right: 24px;
   }
+
+  /* Desktop Body */
 
   .bg-body {
     flex-direction: column;

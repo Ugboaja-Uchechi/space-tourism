@@ -9,12 +9,20 @@
   --lineColor: #383B4B;
 }
 
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  color: var(--colorWhite);
+/* Carousel */
+.carousel-inner {
+  display: block;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  display: none;
+}
+
+.carousel-caption {
+  /* position: absolute; */
+  position: initial;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* DeskTop Body */
@@ -35,12 +43,6 @@ body {
   height: 27.813rem;
 }
 
-.destination-flex {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
 .destination-width h1 {
   font-family: 'Bellefair', sans-serif;
   font-size: 100px;
@@ -50,6 +52,7 @@ body {
   letter-spacing: 0px;
   margin: 0;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .text{
@@ -60,6 +63,8 @@ body {
   line-height: 32px;
   letter-spacing: 0px;
   color: var(--lightPurple);
+  text-align: justify;
+  width: 27.75rem;
 }
 
 .first-text {
@@ -135,11 +140,6 @@ and (max-device-width: 1024px) {
     background-image: url(/src/component/images/destination/background-destination-tablet.jpg);
   }
 
-  .destination-flex {
-    flex-direction: column;
-    justify-content: center;
-  }
-
   .first-text {
     width: 28rem;
     margin-top: 2rem;
@@ -206,17 +206,17 @@ and (max-device-width: 480px) {
     margin-top: 1rem;
   }
 
-  .destination-flex {
-    flex-direction: column;
-    justify-content: center;
-  }
-
   .first-text-h3 {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
     text-align: center;
     margin-top: 0;
+  }
+
+  .mobile-flex {
+    flex-direction: column;
+    align-items: center;
   }
 
   .moon-container {
