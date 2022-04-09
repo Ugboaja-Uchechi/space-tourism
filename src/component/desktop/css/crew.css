@@ -21,11 +21,11 @@
   background-size: cover;
 }
 
-.crew-flex {
+/* .crew-flex {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
+} */
 
 .pick-crew-container {
   display: flex;
@@ -104,10 +104,10 @@ and (max-device-width: 1024px) {
     margin-bottom: 0;
   }
 
-  .crew-flex {
+  /* .crew-flex {
     flex-direction: column;
     justify-content: center;
-  }
+  } */
 
   .commander {
     font-size: 24px;
@@ -148,11 +148,11 @@ and (max-device-width: 480px) {
     margin-top: 1rem;
   }
 
-  .crew-flex {
+  /* .crew-flex {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
   .pick-crew {
     font-size: 16px;
@@ -161,7 +161,7 @@ and (max-device-width: 480px) {
     margin-bottom: 10%;
   }
 
-  .mobile-flex {
+  .mobile-photo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,7 +171,6 @@ and (max-device-width: 480px) {
 
   .mobile {
     display: block;
-    width: 11.063rem;
     height: 13.875rem;
   }
 

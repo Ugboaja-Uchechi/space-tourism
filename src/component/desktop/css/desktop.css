@@ -239,13 +239,12 @@ and (max-device-width: 480px) {
     transform: translateX(100%);
     justify-content: flex-start;
     align-items: baseline;
-    inset: 0 0 0 42%;
+    inset: 0 0 0 33%;
     z-index: 3;
     flex-direction: column;
     padding-right: 0;
     padding: min(30vh, 10rem) 2em;
     height: 100%;
-    width: 15.875rem;
   }
 
   .header-ul.active {
@@ -287,7 +286,7 @@ and (max-device-width: 480px) {
   .close {
     position: absolute;
     top: 33.95px;
-    right: 90px;
+    right: 45px;
     margin-right: 0;
   }
 

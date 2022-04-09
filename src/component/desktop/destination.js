@@ -12,7 +12,7 @@ function DestinationCarousel() {
     <>
       <Carousel fade>
         <Carousel.Item>
-          <div className="d-flex align-items-center justify-content-evenly justify-content-md-center mobile-flex flex-md-column">
+          <div className="d-flex align-items-center justify-content-evenly mobile-flex">
             <div className="moon-container">
               <img src={moon} alt="moon" className="moon" />
             </div>
@@ -36,7 +36,7 @@ function DestinationCarousel() {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="d-flex align-items-center justify-content-evenly justify-content-md-center mobile-flex flex-md-column">
+          <div className="d-flex align-items-center justify-content-evenly mobile-flex">
             <div className="moon-container">
               <img src={mars} alt="moon" className="moon" />
             </div>
@@ -61,7 +61,7 @@ function DestinationCarousel() {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="d-flex align-items-center justify-content-evenly justify-content-md-center mobile-flex flex-md-column">
+          <div className="d-flex align-items-center justify-content-evenly mobile-flex">
             <div className="moon-container">
               <img src={europa} alt="moon" className="moon" />
             </div>
@@ -85,7 +85,7 @@ function DestinationCarousel() {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="d-flex align-items-center justify-content-evenly justify-content-md-center mobile-flex flex-md-column">
+          <div className="d-flex align-items-center justify-content-evenly mobile-flex">
             <div className="moon-container">
               <img src={titan} alt="moon" className="moon" />
             </div>
