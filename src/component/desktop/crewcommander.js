@@ -36,9 +36,9 @@ function CrewCarousel() {
               <div className="crew-line"></div>
             </div>
             <div className="mobile-bottom">
-              <h3 className="commander">Commander</h3>
-              <h2 className="commander-name">Douglas Hurley</h2>
-              <p className="about-commander">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+              <h3 className="commander">Mission Specialist</h3>
+              <h2 className="commander-name">Mark Shuttleworth</h2>
+              <p className="about-commander">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
             </div>
             <Carousel.Caption>
               <div>
@@ -54,9 +54,9 @@ function CrewCarousel() {
               <div className="crew-line"></div>
             </div>
             <div className="mobile-bottom">
-              <h3 className="commander">Commander</h3>
-              <h2 className="commander-name">Douglas Hurley</h2>
-              <p className="about-commander">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+              <h3 className="commander">Pilot</h3>
+              <h2 className="commander-name">Victor Glover</h2>
+              <p className="about-commander">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.</p>
             </div>
             <Carousel.Caption>
               <div>
@@ -72,9 +72,9 @@ function CrewCarousel() {
               <div className="crew-line"></div>
             </div>
             <div className="mobile-bottom">
-              <h3 className="commander">Commander</h3>
-              <h2 className="commander-name">Douglas Hurley</h2>
-              <p className="about-commander">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+              <h3 className="commander">Flight Engineer</h3>
+              <h2 className="commander-name">Anousheh Ansari</h2>
+              <p className="about-commander">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</p>
             </div>
             <Carousel.Caption>
               <div>
