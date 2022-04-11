@@ -2,12 +2,16 @@ import React from "react";
 import NavBar from "../Navbar";
 import '../desktop/css/technology.css'
 import rocket from '../images/technology/image-launch-vehicle-portrait.jpg'
+import spacecapsule from '../images/technology/image-space-capsule-portrait.jpg'
+import spaceport from '../images/technology/image-spaceport-portrait.jpg'
 import rocketlandscape from '../images/technology/image-launch-vehicle-landscape.jpg'
+import spacecapsulelandscape from '../images/technology/image-space-capsule-landscape.jpg'
+import spaceportlandscape from '../images/technology/image-spaceport-landscape.jpg'
 import { Carousel } from "react-bootstrap";
 
 function TechnologyCarousel() {
   return (
-    <Carousel Fade>
+    <Carousel fade>
       <Carousel.Item>
       <div className="d-flex align-items-center justify-content-evenly mobile-flex">
         <div>
@@ -29,7 +33,7 @@ function TechnologyCarousel() {
       <Carousel.Item>
       <div className="d-flex align-items-center justify-content-evenly mobile-flex">
         <div>
-          <img src={rocketlandscape} alt="rocket launch" className="rocket-landscape" />
+          <img src={spaceportlandscape} alt="rocket launch" className="rocket-landscape" />
         </div>
         <div>
           <p className="terminology">The terminology...</p>
@@ -39,7 +43,7 @@ function TechnologyCarousel() {
         <Carousel.Caption>
         <div>
           {/* <img src={rocketlandscape} alt="rocket launch" className="rocket-landscape" /> */}
-          <img src={rocket} alt="rocket launch" className="rocket" />
+          <img src={spaceport} alt="rocket launch" className="rocket" />
         </div>
         </Carousel.Caption>
       </div>
@@ -47,7 +51,7 @@ function TechnologyCarousel() {
       <Carousel.Item>
       <div className="d-flex align-items-center justify-content-evenly mobile-flex">
         <div>
-          <img src={rocketlandscape} alt="rocket launch" className="rocket-landscape" />
+          <img src={spacecapsulelandscape} alt="rocket launch" className="rocket-landscape" />
         </div>
         <div>
           <p className="terminology">The terminology...</p>
@@ -57,7 +61,7 @@ function TechnologyCarousel() {
         <Carousel.Caption>
         <div>
           {/* <img src={rocketlandscape} alt="rocket launch" className="rocket-landscape" /> */}
-          <img src={rocket} alt="rocket launch" className="rocket" />
+          <img src={spacecapsule} alt="rocket launch" className="rocket" />
         </div>
         </Carousel.Caption>
       </div>
@@ -73,7 +77,7 @@ function DesktopTechnology() {
       <div className="space-launch-container">
         <h3 className="space-launch"><span className="numbers">03</span>Space Launch 101</h3>
       </div>
-      <div className="technology-flex">
+      <div>
         <TechnologyCarousel />
       </div>
     </div>
