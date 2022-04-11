@@ -26,6 +26,42 @@ function TechnologyCarousel() {
         </Carousel.Caption>
       </div>
       </Carousel.Item>
+      <Carousel.Item>
+      <div className="d-flex align-items-center justify-content-evenly mobile-flex">
+        <div>
+          <img src={rocketlandscape} alt="rocket launch" className="rocket-landscape" />
+        </div>
+        <div>
+          <p className="terminology">The terminology...</p>
+          <h2 className="launch-vehicle">Spaceport</h2>
+          <p className="text">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+        </div>
+        <Carousel.Caption>
+        <div>
+          {/* <img src={rocketlandscape} alt="rocket launch" className="rocket-landscape" /> */}
+          <img src={rocket} alt="rocket launch" className="rocket" />
+        </div>
+        </Carousel.Caption>
+      </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className="d-flex align-items-center justify-content-evenly mobile-flex">
+        <div>
+          <img src={rocketlandscape} alt="rocket launch" className="rocket-landscape" />
+        </div>
+        <div>
+          <p className="terminology">The terminology...</p>
+          <h2 className="launch-vehicle">Space capsule</h2>
+          <p className="text">A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
+        </div>
+        <Carousel.Caption>
+        <div>
+          {/* <img src={rocketlandscape} alt="rocket launch" className="rocket-landscape" /> */}
+          <img src={rocket} alt="rocket launch" className="rocket" />
+        </div>
+        </Carousel.Caption>
+      </div>
+      </Carousel.Item>
     </Carousel>
   )
 }
