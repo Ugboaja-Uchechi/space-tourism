@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2 family=Barlow+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
-
-:root{
+/* :root{
   --colorWhite: #fff;
   --navyBlue: #0b0d17;
   --lightPurple: #d0d6f9;
   --lineColor: #383B4B;
-}
+} */
 
 .mobile {
   display: none;
@@ -85,7 +81,7 @@
 }
 
 @media screen
-and (min-device-width: 768px) 
+and (min-device-width: 560px) 
 and (max-device-width: 1024px) {
 
   .crew {
@@ -134,7 +130,7 @@ and (max-device-width: 1024px) {
 
 @media screen
 and (min-device-width: 375px)
-and (max-device-width: 480px) {
+and (max-device-width: 459px) {
   .douglas {
     display: none;
   }

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import DesktopHome from './component/desktop';
 import DesktopDestination from './component/desktop/destination';
 import DesktopCrew from './component/desktop/crewcommander';

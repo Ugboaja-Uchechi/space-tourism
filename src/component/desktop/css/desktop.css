@@ -8,6 +8,10 @@
   --lightPurple: #d0d6f9;
 }
 
+*, ::after, ::before {
+  box-sizing: content-box;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -77,6 +81,7 @@ body {
   padding-top: 12rem;
   padding-bottom: 4rem;
   height: 23.875rem;
+  --bs-bg-opacity: 0;
 }
 
 .home-text {
@@ -143,7 +148,7 @@ body {
 /* Tablet View */
 
 @media screen
-and (min-device-width: 768px) 
+and (min-device-width: 560px) 
 and (max-device-width: 1024px) {
 
   .navlink-span {
@@ -226,7 +231,7 @@ and (max-device-width: 1024px) {
 
 @media screen
 and (min-device-width: 320px)
-and (max-device-width: 480px) {
+and (max-device-width: 559px) {
 
   .background {
     background-image: url(/src/component/images/home/background-home-mobile.jpg);
